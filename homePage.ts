@@ -8,7 +8,7 @@ export async function makeHomePage() {
         <!DOCTYPE html>
         <html lang="en">
         <head>
-          <title>Emoji as Favicon - fav.farm</title>
+          <title>Emoji as Favicon - favfarm.deno.dev</title>
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="icon" href="/🚜" />
         </head>
@@ -19,7 +19,7 @@ export async function makeHomePage() {
           ${
     goodAssEmojis.map((emoji) => `
             <p><code onClick="copyToClipboard(this)" tabIndex="0">
-              &#x3C;link rel=&#x22;icon&#x22; href="https://fav.farm/${emoji}" /&#x3E;
+              &#x3C;link rel=&#x22;icon&#x22; href="https://favfarm.deno.dev/${emoji}" /&#x3E;
             </code></p>
           `).join("")
   }
@@ -32,7 +32,7 @@ export async function makeHomePage() {
           </p>
           <p >You can use it with CSS Cursors too!</p>
           <code style="text-align:left;" onClick="copyToClipboard(this)" tabIndex="0">a { <br>
-            &nbsp;&nbsp;cursor: url('https://fav.farm/🖕') 15 0, auto;<br>
+            &nbsp;&nbsp;cursor: url('https://favfarm.deno.dev/🖕') 15 0, auto;<br>
           }</code>
           <p><strong>${formatter.format(totalCount)}</strong> Emoji Favicons Served!
           <br>

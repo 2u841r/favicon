@@ -1,4 +1,4 @@
-# Fav.Farm
+# favfarm.deno.dev
 
 A little website that serves up Favicon emojis.
 
@@ -13,19 +13,19 @@ Handy!
 Works like this:
 
 ```html
-<link rel="icon" href="https://fav.farm/💩" />
-<link rel="icon" href="https://fav.farm/🌶" />
-<link rel="icon" href="https://fav.farm/🔥" />
-<link rel="icon" href="https://fav.farm/🥰" />
-<link rel="icon" href="https://fav.farm/🖥" />
-<link rel="icon" href="https://fav.farm/👓" />
+<link rel="icon" href="https://favfarm.deno.dev/💩" />
+<link rel="icon" href="https://favfarm.deno.dev/🌶" />
+<link rel="icon" href="https://favfarm.deno.dev/🔥" />
+<link rel="icon" href="https://favfarm.deno.dev/🥰" />
+<link rel="icon" href="https://favfarm.deno.dev/🖥" />
+<link rel="icon" href="https://favfarm.deno.dev/👓" />
 ```
 
 Also works with CSS:
 
 ```css
 a {
-  cursor: url("https://fav.farm/🖕") 15 0, auto;
+  cursor: url("https://favfarm.deno.dev/🖕") 15 0, auto;
 }
 ```
 

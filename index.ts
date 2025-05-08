@@ -56,7 +56,7 @@ export async function handler(request: Request): Promise<Response> {
       status: 200,
       headers: {
         "content-type": "text/html; charset=UTF-8",
-        "cache-control": `public, max-age=${60 * 60 * 24}, s-maxage=${60 * 60 * 24
+        "cache-control": `public, max-age=${10}, s-maxage=${10
           }`,
       },
     });
@@ -74,7 +74,7 @@ export async function handler(request: Request): Promise<Response> {
     status: 200,
     headers: {
       "content-type": `image/svg+xml;`,
-      "cache-control": `public, max-age=${60 * 60 * 24}, s-maxage=${60 * 60 * 24 * 7
+      "cache-control": `public, max-age=${10}, s-maxage=${10 * 7
         }`,
     }
   });
